@@ -5,7 +5,7 @@ import { data } from "./data";
 const App = () => {
   return (
     <>
-      <Crawler data={data} tagTobehandle="h1" sort={false} />
+      <Crawler data={data} tagTobehandle="h1" sort={true} />
     </>
   );
 };
