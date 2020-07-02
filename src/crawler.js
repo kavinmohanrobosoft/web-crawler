@@ -32,7 +32,7 @@ const crawler = (url) => {
 };
 
 const callAgainWithNewSetOfURLs = (url) => {
-  crawler(linkTobeCrawled);
+  crawler(url);
 };
 
 // const data1 =
